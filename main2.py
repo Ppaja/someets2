@@ -243,7 +243,7 @@ class DeliveryManager:
         customer_display_name = self.current_order['customer_display_name']
         customer_data = self.all_locations[self.current_order['customer_name']]
         
-        send_message(customer_display_name, "Hey, ich glaube ich hab mich verfahren. Wo genau seid ihr?", sent_by_me=True)
+        send_message(customer_display_name, "Hey, wo genau seid ihr?", sent_by_me=True)
 
         def send_customer_help():
             help_text = customer_data.get("help_response", "Sorry, hab grad schlechten Empfang.")
