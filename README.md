@@ -9,7 +9,7 @@ Diese Schritte müssen nur ein einziges Mal durchgeführt werden.
 2.  **Basisskript installieren:** Führe die Datei `install.bat` aus und folge den Anweisungen im Konsolenfenster.
 
 3.  **ETS2 Telemetry Server:**
-    *   Lade den ETS2 Telemetry Server von [dieser URL](https://github.com/Funbit/Funbit/ets2-telemetry-server/archive/refs/heads/main.zip) herunter.
+    *   Lade den ETS2 Telemetry Server von [dieser URL](https://github.com/Funbit/ets2-telemetry-server/archive/refs/heads/master.zip) herunter.
     *   Entpacke in einen beliebigen Ordner auf deinem PC (z.B. Desktop).
     *   Starte den server im Ordner "server" mit der Datei "Ets2Telemetry.exe". Merke dir schon mal dass hier die URL angezeigt wird für später (z.B. `http://127.0.0.1:25555`).
 
