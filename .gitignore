@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+tools/
+tools/lib.hash
+tools/scs_extractor.exe
+tools/updater.exe
+tools/SII_Decrypt.dll
+tools/SII_Decrypt.exe
+
+ignore/
