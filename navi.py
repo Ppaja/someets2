@@ -5,8 +5,9 @@ import math
 import json
 import os
 
+from src.config import TELEMETRY_URL
+
 # --- KONFIGURATION ---
-TELEMETRY_URL = "http://172.24.176.1:25555/api/ets2/telemetry"
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 800
 FPS = 30

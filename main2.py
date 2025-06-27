@@ -24,14 +24,13 @@ try:
     from ui.order_menu_ui import OrderMenuOverlay
     from utils.geometry import is_point_in_polygon
     from actions.communication import send_message, create_sample_files_if_missing
-    from config import DELIVERY_DATA_FILE
+    from config import DELIVERY_DATA_FILE, TELEMETRY_URL
 except ImportError as e:
     print(f"FEHLER: Konnte eine benötigte Komponente nicht importieren: {e}")
     sys.exit(1)
 
 # --- Konstanten ---
 LOCATIONS_FILE = project_root / "data" / "locations.json"
-TELEMETRY_URL = "http://172.24.176.1:25555/api/ets2/telemetry"
 POLL_INTERVAL_S = 1.0
 PROFIT_MARGIN = 1.25
 
