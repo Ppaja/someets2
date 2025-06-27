@@ -1,1 +1,40 @@
 ignore
+
+
+### Einmalige Einrichtung
+Diese Schritte müssen nur ein einziges Mal durchgeführt werden.
+
+1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/ets2Im/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
+
+2.  **Basisskript installieren:** Führe die Datei `install.bat` aus und folge den Anweisungen im Konsolenfenster.
+
+3.  **ETS2 Telemetry Server:**
+    *   Lade den ETS2 Telemetry Server von [dieser URL](https://github.com/Funbit/Funbit/ets2-telemetry-server/archive/refs/heads/main.zip) herunter.
+    *   Entpacke in einen beliebigen Ordner auf deinem PC (z.B. Desktop).
+    *   Starte den server im Ordner "server" mit der Datei "Ets2Telemetry.exe". Merke dir schon mal dass hier die URL angezeigt wird für später (z.B. `http://127.0.0.1:25555`).
+
+4.  **Tool um Spieldaten entschlüsseln installieren:**
+    *   Öffne den Ordner `tools` von diesem Projekt
+    *   Lade den SII Decrypt CLI von [dieser URL](https://github.com/Stearells/SII_Decrypt/releases/download/0.7/Release.7z) herunter. 
+    *   Entpacke die ZIP-Datei im Ordner `tools` (einfach drag & drop).
+    *   Jetzt sollten direkt im tools die SII_Decrypt Dateien liegen
+
+5.  **Google API Key eintragen:**
+    *   Öffne die Datei `.env` mit einem Texteditor (z.B. Notepad).
+    *   Trage dort deinen persönlichen Google API Key ein. Diesen benötigst du, damit die KI-Funktionen für Aufträge funktionieren.
+    *   Hinweis: Geh auf https://aistudio.google.com/ und erstelle einen API Key.
+    ```
+    GEMINI_API_KEY=DEIN_API_KEY_HIER
+    ```
+
+    Es wird gemini-2.5-flash verwendet, welches kostenfrei mit 15 RPM 500 req/day genutzt werden kann. Das reicht weeeeit über das was das skript braucht.
+
+6.  **Skript konfigurieren:**
+    *   Führe die Datei `config_bearbeiten.bat` aus.
+    *   Wähle das ETS2-Profil aus, mit dem du das Skript verwenden möchtest.
+    *   Trage unter  `[Telemetry]` die URL des Telemetry Servers ein (den siehst du im ETS2 Telemetry Server bei "Server IP:" wie "127.0.0.1")
+    *   Speichern
+
+Hinweis: Wenn du das Skript mit einem anderen Profil nutzen willst, musst du die Datei `config_bearbeiten.bat` erneut ausführen und das neue Profil auswählen.
+
+
