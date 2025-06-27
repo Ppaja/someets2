@@ -61,7 +61,7 @@ Im SMS Chat mit Kunden (nach Bestellkauf)
 ### Einmalige Einrichtung
 Diese Schritte müssen nur ein einziges Mal durchgeführt werden.
 
-1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/ets2Im/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
+1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/someets2/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
 
 2.  **Basisskript installieren:** Führe die Datei `install.bat` aus und folge den Anweisungen im Konsolenfenster.
 
