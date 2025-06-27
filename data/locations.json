@@ -1,0 +1,112 @@
+{
+  "locations": [
+    {
+      "name": "burgerking",
+      "display_name": "Burger King",
+      "type": "restaurant",
+      "corners": [
+        { "x": -327.014648, "z": -1493.55566 },
+        { "x": -283.353943, "z": -1508.26221 },
+        { "x": -257.7262, "z": -1448.626 },
+        { "x": -290.1753, "z": -1434.54736 }
+      ]
+    },
+    {
+      "name": "kaufland",
+      "display_name": "Kaufland",
+      "type": "restaurant",
+      "corners": [
+        { "x": -727.4876, "z": -2758.96045 },
+        { "x": -613.332031, "z": -2813.836 },
+        { "x": -515.16864, "z": -2656.82056 },
+        { "x": -654.706543, "z": -2585.12134 }
+      ]
+    },
+    {
+      "name": "autohaus",
+      "display_name": "Autohausmitarbeiter",
+      "type": "delivery_point",
+      "image_path": "data/images/lieferung1.jpg",
+      "description": "Wir stehen vor dem Gebäude gegenüber von dem Burger King. Das Autohaus. Wenn du vom Burger King kommst, musst du nur geradeaus. Wir sind 3 Personen vor dem Haupteingang.",
+      "help_response": "Hey! Wir sind direkt gegenüber vom Burger King, das Autohaus. Vom BK aus einfach geradeaus. Stehen zu dritt vorm Haupteingang. Du schaffst das!",
+      "corners": [
+        { "x": -370.597473, "z": -1473.56067 },
+        { "x": -351.4741, "z": -1473.95337 },
+        { "x": -341.4317, "z": -1455.108 },
+        { "x": -359.216827, "z": -1446.0166 }
+      ]
+    },
+    {
+      "name": "Haus",
+      "display_name": "Manfred K.",
+      "type": "delivery_point",
+      "image_path": "data/images/lieferung2.jpg",
+      "description": "Wir sind in einem Haus mit Parkplatz vor der Tür zwischen Burgerking und dem Unternehmen Kömmerling.",
+      "help_response": "Ich wohne in einem Haus mit größerer Parkplatzfläche vor der Tür. In der Nähe von dem Unternehmen Kömmerling.",
+      "corners": [
+        { "x": -457.4251, "z": -1778.86938 },
+        { "x": -433.181152, "z": -1806.20947 },
+        { "x": -414.989319, "z": -1701.60486 },
+        { "x": -434.1479, "z": -1684.12744 }
+      ]
+    },
+    {
+      "name": "Baustelle",
+      "display_name": "Kevin L.",
+      "type": "delivery_point",
+      "image_path": "data/images/lieferung3.jpg",
+      "description": "Wir sind bei der Werkstatt in Pirmasens auf der Baustelle. Der Wachdienst lässt dich durch. Wir sind 3 Bauarbeiter.",
+      "help_response": "Also ich steh hier bei der Wektstatt Nahe Hornbach in der Seitenstraße. ",
+      "corners": [
+        { "x": -741.8074, "z": -2417.94775 },
+        { "x": -729.2358, "z": -2407.707 },
+        { "x": -741.5272, "z": -2395.67822 },
+        { "x": -748.8078, "z": -2405.736 }
+      ]
+    },
+    {
+      "name": "Haus B",
+      "display_name": "Maria A.",
+      "type": "delivery_point",
+      "image_path": "data/images/lieferung4.jpg",
+      "description": "Wir wohnen in Pirmasens fast gegenüber vom Media Markt im 2. Reihenhaus von links. ",
+      "help_response": "Gegenüber ist auch eine LKW Spedition.",
+      "corners": [
+        { "x": -772.8941, "z": -2739.66772 },
+        { "x": -766.572754, "z": -2745.97632 },
+        { "x": -749.376465, "z": -2715.905 },
+        { "x": -757.7625, "z": -2715.09033 }
+      ]
+    }
+  ],
+  "menu": {
+    "burgerking": [
+      { "name": "Whopper", "price": 6.99 },
+      { "name": "Big King XXL", "price": 8.49 },
+      { "name": "Crispy Chicken", "price": 5.99 },
+      { "name": "Veggie King", "price": 5.79 },
+      { "name": "Double Cheeseburger", "price": 3.49 },
+      { "name": "King Pommes (mittel)", "price": 3.29 },
+      { "name": "Chili Cheese Nuggets", "price": 3.99 },
+      { "name": "Cola (0,4 l)", "price": 3.19 },
+      { "name": "Wasser (0,5 l)", "price": 2.79 },
+      { "name": "King Menü", "price": 10.49 }
+    ],
+    "kaufland": [
+      { "name": "Gouda jung (200g)", "price": 2.39 },
+      { "name": "Emmentaler (250g)", "price": 2.79 },
+      { "name": "Bauernbrot (1kg)", "price": 2.79 },
+      { "name": "Toastbrot (500g)", "price": 1.29 },
+      { "name": "Frische Vollmilch (1l)", "price": 1.45 },
+      { "name": "H-Vollmilch (1l)", "price": 1.19 },
+      { "name": "Eier (10er Bodenhaltung)", "price": 3.29 },
+      { "name": "Markenbutter (250g)", "price": 2.59 },
+      { "name": "Spaghetti (500g)", "price": 0.99 },
+      { "name": "Tomaten passiert (500ml)", "price": 1.19 },
+      { "name": "Apfel Elstar (1kg)", "price": 2.49 },
+      { "name": "Bananen (1kg)", "price": 1.79 },
+      { "name": "Mineralwasser (6x1,5l)", "price": 3.49 },
+      { "name": "Cola Kaufland (1,5l)", "price": 0.89 }
+    ]
+  }
+}

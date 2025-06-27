@@ -1,0 +1,15 @@
+{
+  "conversations": [
+    {
+      "sender": "Dispo",
+      "messages": [
+        {
+          "text": "Willkommen an Bord! Melde dich hier, wenn du einen neuen Auftrag brauchst.",
+          "timestamp": 1715888888.888,
+          "sent_by_me": false,
+          "read": false
+        }
+      ]
+    }
+  ]
+}

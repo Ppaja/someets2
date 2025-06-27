@@ -1,0 +1,7 @@
+python-dotenv
+keyboard
+requests
+google-generativeai
+opencv-python
+Pillow
+pygame
