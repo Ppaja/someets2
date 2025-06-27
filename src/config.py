@@ -6,7 +6,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # --- Pfade ---
-PROFILE_PATH = Path(r"C:\Users\Anwender\Documents\Euro Truck Simulator 2\profiles\7374726166656E74657374")
+# PROFILE_PATH = Path(r"C:\Users\Anwender\Documents\Euro Truck Simulator 2\profiles\7374726166656E74657374")
+PROFILE_PATH = Path.home() / "Documents" / "Euro Truck Simulator 2" / "profiles" / "7374726166656E74657374"
 DATA_DIR = BASE_DIR / "data"
 TOOLS_DIR = BASE_DIR / "tools"
 SFX_DIR = BASE_DIR / "sfx"
