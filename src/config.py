@@ -7,10 +7,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # --- Pfade ---
 # PROFILE_PATH = Path(r"C:\Users\Anwender\Documents\Euro Truck Simulator 2\profiles\7374726166656E74657374")
-PROFILE_PATH = Path.home() / "Documents" / "Euro Truck Simulator 2" / "profiles" / "7374726166656E74657374"
+PROFILE_PATH = Path(r"C:\Users\Anwender\Documents\Euro Truck Simulator 2\profiles\7061726973")
 DATA_DIR = BASE_DIR / "data"
 TOOLS_DIR = BASE_DIR / "tools"
 SFX_DIR = BASE_DIR / "sfx"
+
+# --- Telemetry Server ---
+TELEMETRY_SERVER_EXE = Path(r".")
 
 # --- Dateipfade ---
 PHONE_MESSAGE_FILE = DATA_DIR / "phone_messages.json"
@@ -35,8 +38,6 @@ PHONE_HEIGHT = 550
 # Laptop
 LAPTOP_WIDTH = 800
 LAPTOP_HEIGHT = 500
-
-
 
 OFFENCE_TYPE_MAP = {
     0: "Unfall mit Fremdbeteiligung",
