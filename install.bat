@@ -23,4 +23,4 @@ echo Virtuelle Umgebung aktiviert!
 pip install -r requirements.txt
 @echo requirements installed
 
-pause
+exit

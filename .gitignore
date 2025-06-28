@@ -186,3 +186,5 @@ tools/SII_Decrypt.dll
 tools/SII_Decrypt.exe
 
 ignore/
+
+.env
