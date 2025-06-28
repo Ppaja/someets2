@@ -8,7 +8,7 @@ Diese Schritte müssen nur ein einziges Mal durchgeführt werden.
 0.  **Python installieren:** Lade [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) herunter und führe sie aus. 
 
     <sup>**Wichtig**: Haken setzen bei **"Add Python 3.10 to PATH"**<sup>
-1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/ets2Im/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
+1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/someets2/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
 
 2.  **Basisskript installieren:** Führe die Datei `install.bat` aus und folge den Anweisungen im Konsolenfenster.
 
