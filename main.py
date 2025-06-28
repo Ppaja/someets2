@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from src.config import PHONE_MESSAGE_FILE, LAPTOP_MAIL_FILE
 from src.device_manager import DeviceManager
 from src.actions.communication import create_sample_files_if_missing
+from src.startTelemetry import start_telemetry_server
 
 # Lade Umgebungsvariablen aus der .env Datei
 load_dotenv()
@@ -18,6 +19,8 @@ def main():
 
     # Erstellt Beispiel-Nachrichten/Mails, falls die Dateien nicht existieren
     create_sample_files_if_missing()
+
+    start_telemetry_server()
 
     # Initialisiert und startet den Device Manager, der alles weitere steuert
     manager = DeviceManager()

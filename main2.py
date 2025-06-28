@@ -23,6 +23,7 @@ try:
     from ui.phone_ui_lieferdienst import PhoneOverlayLieferdienst
     from ui.order_menu_ui import OrderMenuOverlay
     from utils.geometry import is_point_in_polygon
+    from src.startTelemetry import start_telemetry_server
     from actions.communication import send_message, create_sample_files_if_missing
     from config import DELIVERY_DATA_FILE, TELEMETRY_URL
 except ImportError as e:
@@ -280,6 +281,8 @@ class TelemetryPoller(threading.Thread):
 
 def main():
     create_sample_files_if_missing()
+    start_telemetry_server()
+
     root = tk.Tk()
     root.withdraw()
 
