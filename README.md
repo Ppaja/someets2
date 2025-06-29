@@ -5,7 +5,7 @@ ignore
 ### Einmalige Einrichtung
 Diese Schritte müssen nur ein einziges Mal durchgeführt werden.
 
-0.  **Python installieren:** Lade [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) herunter und führe sie aus. 
+0.  **Python installieren:** Lade [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) herunter und installiere es. 
 
     <sup>**Wichtig**: Haken setzen bei **"Add Python 3.10 to PATH"**<sup>
 1.  **Download:** Lade das Skript-Paket über den link [hier](https://github.com/Ppaja/someets2/archive/refs/heads/main.zip) herunter und entpacke die ZIP-Datei.
