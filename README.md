@@ -52,6 +52,7 @@ Starte die Skripte am besten erst wenn das Spiel bereits läuft.
 
 ### Steuerung
 *   **Pfeiltaste Hoch:** Handy öffnen/schließen
+*   **Pfeiltaste Runter:** Laptop öffnen/schließen
 *   **Pfeiltasten (Links/Rechts/Hoch/Runter):** Navigation in den Menüs
 *   **Enter:** Auswahl bestätigen
 *   **Zurück/Backspace:** Eine Ebene zurück / Gerät wegstecken
