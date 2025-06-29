@@ -46,7 +46,7 @@ Hinweis: Wenn du das Skript mit einem anderen Profil nutzen willst, musst du die
 Diese beiden Schritte müssen **vor jeder Spielsession** ausgeführt werden.
 
 1.  **Telemetry Server starten:** Gehe in den Ordner des Telemetry Servers und starte die `ets2-telemetry.exe`. Lass dieses Programm während des Spielens im Hintergrund laufen. (oder trage den Pfad des ets2-telemetry.exe in die config ein, dann startet es automatisch)
-2.  **Entsprechendes Skript starten:** Führe die Datei `truck.bat` (main.py - truck/aufträge) oder `0_start_ddriver.bat` (main2.py - lieferdienst) aus dem Skript-Verzeichnis aus.
+2.  **Entsprechendes Skript starten:** Führe die Datei `0_start_truck.bat` (main.py - truck/aufträge) oder `0_start_ddriver.bat` (main2.py - lieferdienst) aus dem Skript-Verzeichnis aus.
 
 Starte die Skripte am besten erst wenn das Spiel bereits läuft. 
 
