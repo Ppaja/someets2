@@ -185,7 +185,7 @@ class CareerManager:
             jobs_from_netto = [j for j in all_jobs if company_name_human.lower() in j.get('start_company', '').lower()]
             if jobs_from_netto:
                 best_job = sorted(jobs_from_netto, key=lambda j: j['distance_km'])[0]
-                job_type = "Filial-Umlagerung"
+                job_type = "Warenverkauf"
 
         # 3. Priorität: Von irgendwo zu NETTO (Zulieferung)
         if not best_job:
@@ -214,7 +214,7 @@ class CareerManager:
         # Job-spezifische Einleitungen
         intro_texts = {
             "Direktlieferung": f"eine Direktlieferung für eine {company_name_human}-Filiale steht bereit.",
-            "Filial-Abholung": f"eine wichtige Fracht steht verladen auf unserer {company_name_human}-Filiale bereit.",
+            "Warenverkauf": f"eine Verkaufsfracht steht zur Abholung an der {company_name_human}-Filiale bereit.",
             "Warenlieferung": f"eine dringende Warenlieferung für {company_name_human} muss abgeholt werden.",
             "Externe Aushilfsfahrt": f"da intern wenig Verkehr herrscht, haben wir eine externe Aushilfsfahrt organisiert."
         }
@@ -222,7 +222,7 @@ class CareerManager:
         intro_text = intro_texts.get(job_type, "ein neuer Transportauftrag wartet auf Sie.")
         
         # Prioritätskennzeichnung
-        priority_icon = "🔴" if job_type in ["Direktlieferung", "Filial-Abholung"] else "🟡"
+        priority_icon = "🔴" if job_type in ["Direktlieferung", "Externe Aushilfsfahrt"] else "🟡"
         
         subject = f"{priority_icon} {job_type}: {job['cargo']} | {job['start_city']} → {job['target_city']}"
         
